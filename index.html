@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notepad</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="column">
+        <h1>📒 My Notepad</h1>
+      </div>
+      <main class="first-column">
+        <div>
+          <h2>⬇️My notes</h1>
+        </div>
+        <!--i creat li tag in js for not list-->
+        <div id="note-list"></div>
+      </main>
+      <sub class="Second-column">
+        <div class="sixcolumns">
+          <label for="note" id="label">input new text:</label>
+          <form action="#" id="form">
+            <label for="note"></label>
+            <textarea id="note" class="u-full-width"></textarea>
+            <input
+              type="submit"
+              class="button u-full-width button-primary"
+              value="Save notes"
+            />
+          </form>
+        </div>
+      </sub>
+    </div>
+  </body>
+  <script src="./index.js"></script>
+</html>
